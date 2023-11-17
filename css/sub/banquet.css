@@ -1,0 +1,653 @@
+@charset 'utf-8';
+@import url('../header.css');
+@import url('../footer.css');
+
+
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header #navwrap #nav ul {
+    text-align: center;
+    list-style: none;
+    background-color: transparent;
+}
+
+#title_text{
+    font-family: "한컴 돋움",Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 30px;
+}
+#floor_text{
+    font-family: "한컴 돋움", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #000;
+    margin-bottom: 30px;
+}
+#content_text{
+    font-family: "한컴 돋움", Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    color: #000;
+}
+#reservation{
+    width: 205px;
+    height: 45px;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #000;
+}
+
+
+#reservation a{
+    text-decoration: none;
+}
+#reservation a span{
+    position: relative;
+    top: 10px;
+    font-family: "한컴 돋움", Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #000;
+    padding-top: 13px;
+}
+
+
+/* header */
+header {
+    width: 100%;
+    height: 460px;
+    background: url("../../image/banquet/Banquet_benner.jpg") no-repeat;
+    background-size: cover;
+}
+
+header #title {
+    width: 300px;
+    margin: 0 auto;
+}
+
+header #title p {
+    position: absolute;
+    top: 200px;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* section1 */
+#sub_section1 {
+    width: 100%;
+    height: 960px;
+    position: relative;
+}
+
+#sub_section1 #sec1_wrap {
+    width: 1873px;
+    height: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#sec1_wrap #sec1_resevation {
+    position: absolute;
+    left: 50%;
+    transform: translate(-102.5px);
+    top: 80px;
+    text-align: center;
+    line-height: 45px;
+    width: 205px;
+    height: 45px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    color: #000;
+}
+
+#sub_section1 #sec1_wrap #sec1_text {
+    position: absolute;
+    left: 15%;
+    top: 350px;
+    font-size: 2.3em;
+    font-weight: bold;
+    color: #000;
+}
+
+#sub_section1 #sec1_wrap #sec1_content_text {
+    position: absolute;
+    left: 15%;
+    top: 530px;
+    font-size: 1.3em;
+    color: #000;
+}
+
+#sub_section1 #sec1_wrap img {
+    position: absolute;
+    right: 0;
+    top: 202px;
+}
+
+
+
+/* section2 */
+#sub_section2 {
+    width: 100%;
+    height: 730px;
+}
+
+#sub_section2 #sec2_wrap {
+    width: 1873px;
+    height: 730px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#sub_section2 #sec2_wrap #sec2_img {
+    position: absolute;
+    left: 0;
+}
+
+#sub_section2 #sec2_wrap #sec2_grand_text {
+    position: absolute;
+    top: 20px;
+    right: 200px;
+}
+
+#sub_section2 #sec2_wrap #reservation {
+    position: absolute;
+    top: 210px;
+}
+
+#sub_section2 #sec2_wrap #reservation a {
+    text-align: center;
+}
+
+#sub_section2 #sec2_wrap #sec2_grand_table{
+    position: absolute;
+    top: 290px;
+    right: 0;
+}
+
+
+/* sub_section3 */
+#sub_section3{
+    width: 100%;
+    height: 730px;
+}
+
+#sub_section3 #sec3_wrap{
+    width: 1873px;
+    height: 730px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#sub_section3 #sec3_wrap #sec3_img{
+    position: absolute;
+    right: 0;
+}
+
+#sub_section3 #sec3_wrap #sec3_royal_text{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    text-align: right;
+}
+
+#sub_section3 #sec3_wrap #reservation {
+    position: absolute;
+    top: 210px;
+    right: 0;
+}
+
+#sub_section3 #sec3_wrap #reservation a {
+    text-align: center;
+}
+
+#sub_section3 #sec3_wrap #sec3_royal_table{
+    position: absolute;
+    /* bottom: 165px; */
+    top: 290px;
+    left: 0;
+}
+
+
+/* sub_section4 */
+#sub_section4{
+    width: 100%;
+    height: 730px;
+}
+
+#sub_section4 #sec4_wrap{
+    width: 1873px;
+    height: 730px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#sub_section4 #sec4_wrap #sec4_img{
+    position: absolute;
+    left: 0;
+}
+
+#sub_section4 #sec4_wrap #sec4_jade_text{
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    text-align: left;
+}
+
+#sub_section4 #sec4_wrap #reservation {
+    position: absolute;
+    top: 210px;
+    left: 0;
+}
+
+#sub_section4 #sec4_wrap #reservation a {
+    text-align: center;
+}
+
+#sub_section4 #sec4_wrap #sec4_jade_table{
+    position: absolute;
+    top: 290px;
+    right: 0;
+}
+
+
+/* sub_section5 */
+#sub_section6 {
+    width: 100%;
+    height: 290px;
+}
+
+#sub_section6 #sec6_wrap {
+    position: relative;
+    width: 1520px;
+    height: 190px;
+    border: 1px solid #b99b70;
+    background-color: #faf7f3;
+    margin: 0 auto;
+}
+
+#sub_section6 #sec6_wrap #sec6_guide {
+    float: left;
+    position: relative;
+    left: 100px;
+    top: 60px;
+    color: #000;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#sub_section6 #sec6_wrap ul {
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 60px;
+    margin-right: 100px;
+    color: #a98550;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#sub_section6 #sec6_wrap #sec6_time ul li {
+    display: block;
+    color: #81807e;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#sub_section6 #sec6_wrap #sec6_reservation ul li {
+    display: block;
+    color: #81807e;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* =========================================================== */
+@media screen and (min-width:500px) and (max-width:1280px) {
+    
+    /* header */
+    header {
+        width: 100%;
+        height: 460px;
+        background: url("../../image/banquet/Banquet_benner.jpg") no-repeat;
+        background-size: cover;
+    }
+    
+    header #title {
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    header #title p {
+        position: absolute;
+        top: 200px;
+        font-weight: bold;
+        font-size: 4em;
+        text-align: center;
+        color: #fff;
+    }
+    
+    
+    /* section1 */
+    #sub_section1 {
+        width: 100%;
+        height: 700px;
+        position: relative;
+    }
+    
+    #sub_section1 #sec1_wrap {
+        width: 1200px;
+        height: 960px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    #sec1_wrap #sec1_resevation {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 80px;
+        text-align: center;
+        line-height: 45px;
+        width: 205px;
+        height: 45px;
+        margin: 0 auto;
+        border: 1px solid #000;
+        color: #000;
+    }
+    
+    #sub_section1 #sec1_wrap #sec1_text {
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        font-size: 2.3em;
+        font-weight: bold;
+        color: #000;
+    }
+    
+    #sub_section1 #sec1_wrap #sec1_content_text {
+        position: absolute;
+        left: 10%;
+        top: 45%;
+        font-size: 1.3em;
+        color: #000;
+    }
+    
+    #sub_section1 #sec1_wrap img {
+        width: 600px;
+        position: absolute;
+        right: 0;
+        top: 202px;
+    }
+    
+    
+    
+    /* section2 */
+    #sub_section2 {
+        width: 100%;
+        height: 550px;
+    }
+    
+    #sub_section2 #sec2_wrap {
+        width: 1200px;
+        height: 530px;
+        margin: 0 auto;
+        position: relative;
+    }
+    #sub_section2 #sec2_wrap #sec2_img{
+        float: left;
+        width: 600px;
+        height: 375px;
+    }
+    #sub_section2 #sec2_wrap #sec2_img img{
+        width: 600px;
+        position: absolute;
+    }
+    #sub_section2 #sec2_wrap #sec2_grand_text {
+        width: 600px;
+        height: 375px;
+        float: right;
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+    #sub_section2 #sec2_wrap #sec2_grand_text #title_text{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        font-size: 2em;
+    }
+    #sub_section2 #sec2_wrap #sec2_grand_text #floor_text{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        font-size: 1em;
+    }
+    #sub_section2 #sec2_wrap #sec2_grand_text #content_text{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        font-size: 1.3em;
+    }
+
+
+    #sub_section2 #sec2_wrap #reservation {
+        position: absolute;
+        top: 210px;
+        left: 5%;
+    }
+    
+    #sub_section2 #sec2_wrap #reservation a {
+        text-align: center;
+    }
+    
+    #sub_section2 #sec2_wrap #sec2_grand_table {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    #sub_section2 #sec2_wrap #sec2_grand_table img{
+        width: 250px;
+    }
+    
+    
+    /* sub_section3 */
+    #sub_section3 {
+        width: 100%;
+        height: 550px;
+    }
+    
+    #sub_section3 #sec3_wrap {
+        width: 1200px;
+        height: 530px;
+        margin: 0 auto;
+        position: relative;
+    }
+    #sub_section3 #sec3_wrap #sec3_img{
+        float: left;
+        width: 600px;
+        height: 375px;
+    }
+    #sub_section3 #sec3_wrap #sec3_img img{
+        width: 600px;
+        position: absolute;
+    }
+    #sub_section3 #sec3_wrap #sec3_royal_text {
+        width: 600px;
+        height: 375px;
+        float: left;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    #sub_section3 #sec3_wrap #sec3_royal_text #title_text{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        font-size: 2em;
+    }
+    #sub_section3 #sec3_wrap #sec3_royal_text #floor_text{
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        font-size: 1em;
+    }
+    #sub_section3 #sec3_wrap #sec3_royal_text #content_text{
+        position: absolute;
+        top: 30%;
+        right: 5%;
+        font-size: 1.3em;
+    }
+
+
+    #sub_section3 #sec3_wrap #reservation {
+        position: absolute;
+        top: 210px;
+        right: 5%;
+    }
+    
+    #sub_section3 #sec3_wrap #reservation a {
+        text-align: center;
+    }
+    
+    #sub_section3 #sec3_wrap #sec3_royal_table {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    #sub_section3 #sec3_wrap #sec3_royal_table img{
+        width: 250px;
+    }
+    
+    
+    /* sub_section4 */
+    #sub_section4 {
+        width: 100%;
+        height: 550px;
+    }
+    
+    #sub_section4 #sec4_wrap {
+        width: 1200px;
+        height: 530px;
+        margin: 0 auto;
+        position: relative;
+    }
+    #sub_section4 #sec4_wrap #sec4_img{
+        float: left;
+        width: 600px;
+        height: 375px;
+    }
+    #sub_section4 #sec4_wrap #sec4_img img{
+        width: 600px;
+        position: absolute;
+    }
+    #sub_section4 #sec4_wrap #sec4_jade_text {
+        width: 600px;
+        height: 375px;
+        float: right;
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+    #sub_section4 #sec4_wrap #sec4_jade_text #title_text{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        font-size: 2em;
+    }
+    #sub_section4 #sec4_wrap #sec4_jade_text #floor_text{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        font-size: 1em;
+    }
+    #sub_section4 #sec4_wrap #sec4_jade_text #content_text{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        font-size: 1.3em;
+    }
+
+
+    #sub_section4 #sec4_wrap #reservation {
+        position: absolute;
+        top: 210px;
+        left: 5%;
+    }
+    
+    #sub_section4 #sec4_wrap #reservation a {
+        text-align: center;
+    }
+    
+    #sub_section4 #sec4_wrap #sec4_jade_table {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    #sub_section4 #sec4_wrap #sec4_jade_table img{
+        width: 250px;
+    }
+    
+    
+    /* sub_section5 */
+    #sub_section6 {
+        width: 100%;
+        height: 290px;
+    }
+    
+    #sub_section6 #sec6_wrap {
+        position: relative;
+        width: 1200px;
+        height: 190px;
+        border: 1px solid #b99b70;
+        background-color: #faf7f3;
+        margin: 0 auto;
+    }
+    
+    #sub_section6 #sec6_wrap #sec6_guide {
+        float: left;
+        position: relative;
+        left: 100px;
+        top: 60px;
+        color: #000;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    #sub_section6 #sec6_wrap ul {
+        float: left;
+        position: relative;
+        left: 200px;
+        top: 60px;
+        margin-right: 100px;
+        color: #a98550;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    #sub_section6 #sec6_wrap #sec6_time ul li {
+        display: block;
+        color: #81807e;
+        font-size: 1em;
+        font-weight: 400;
+    }
+    
+    #sub_section6 #sec6_wrap #sec6_reservation ul li {
+        display: block;
+        color: #81807e;
+        font-size: 1em;
+        font-weight: 400;
+    }
+    
+}

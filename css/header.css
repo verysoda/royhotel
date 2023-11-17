@@ -1,0 +1,440 @@
+@charset 'utf-8';
+@import url('./section1.css');
+@import url('./section2.css');
+@import url('./section3.css');
+@import url('./section4.css');
+@import url('./section5.css');
+@import url('./footer.css');
+
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #eeeeee;
+    font-size: 14px;
+    font-family: "한컴 고딕" Arial, Helvetica, sans-serif;
+}
+
+ul {
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+
+
+    /* header */
+    header {
+        position: relative;
+        width: 100%;
+        height: 805px;
+        background: url("../image/indexImage/lobby1.jpg") no-repeat;
+        background-position: 0 0;
+        background-size: cover;
+    }
+
+    header #headwrap {
+        width: 1200px;
+        height: 805px;
+        margin: 0 auto;
+    }
+
+    header #navwrap {
+        float: left;
+        width: 1130px;
+        height: 65px;
+        text-align: center;
+        /* margin-left: 25%; */
+    }
+
+    header #navwrap #h1 {
+        display: block;
+        float: left;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    header #navwrap #nav {
+        display: block;
+        float: left;
+        width: 1000px;
+        padding: 23px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    header #navwrap #nav ul {
+        text-align: center;
+        list-style: none;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    header #navwrap #nav ul li {
+        margin: 0 5px;
+    }
+
+    header #navwrap #nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+
+
+    /* ham */
+    /* 09.11  hover menu 내용 추가 */
+    /* 09.12 주석처리 */
+    /* header #ham {
+    width: 44px;
+    height: 64px;
+    padding-top: 20px;
+    } */
+
+    header #ham #list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 805px; /* ---------------------------------------------- */
+
+        background-color: #000;
+        display: none;
+    }
+
+    header #ham #list img:first-child {
+        position: absolute;
+        top: 20px;
+        right: 375px;
+    }
+
+    /* 09.12 주석처리 */
+    /* header #ham:hover #list {
+    display: block;
+    z-index: 9999;
+    } */
+
+    header #ham #list #list_t {
+        position: absolute;
+        top: 100px;
+        left: 35%;
+        transform: translateX(-30%);
+        width: 250px;
+    }
+    
+    header #ham #list #list_t div {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    header #ham #list #list_content {
+        position: absolute;
+        top: 125px;
+        left: 50%;
+        transform: translate(-10%);
+        width: 700px;
+    }
+
+    header #ham #list #list_content>* {
+        margin-bottom: 39px;
+    }
+
+    header #ham #list #list_content a {
+        text-decoration: none;
+        font-size: 1.4em;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    header #ham #list #list_content #list3 a {
+        border-right: 3px solid #fff;
+        padding: 0 20px 0 10px;
+    }
+
+    header #ham #list #list_content #list3 a:last-child {
+        border: none;
+    }
+
+    header #ham #list #list_content #list6 a {
+        border-right: 3px solid #fff;
+        padding: 0 20px 0 10px;
+    }
+
+    header #ham #list #list_content #list6 a:last-child {
+        border: none;
+    }
+
+    header #ham #list #list_content #list7 a {
+        border-right: 3px solid #fff;
+        padding: 0 20px 0 10px;
+    }
+
+    header #ham #list #list_content #list7 a:last-child {
+        border: none;
+    }
+
+    header #ham #list #list_content #list9 a {
+        border-right: 3px solid #fff;
+        padding: 0 20px 0 10px;
+    }
+
+    header #ham #list #list_content #list9 a:last-child {
+        border: none;
+    }
+
+
+
+    /* 09.12 ham input으로 변경 */
+    #ham {
+        width: 100%;
+        height: 100%;
+        /* position: fixed; */
+    }
+    
+    #hamb~*{
+        transition: height 1s;
+    }
+
+    #ham input[type=checkbox] {
+        display: none;
+    }
+
+    #ham .hamIcon {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translate(500px);
+        width: 44px;
+        height: 44px;
+        background: url('../image/commonimage/list_icon2.png') no-repeat 0 0;
+        cursor: pointer;
+        z-index: 9999;
+    }
+
+    #ham input[type=checkbox]:checked+.hamIcon {
+        position: fixed;
+        background: url('../image/commonimage/list_icon2.png') no-repeat 0 -48px;
+    }
+
+    #ham #list {
+        display: none;
+    }
+
+    #ham input[type=checkbox]:checked~#list {
+        display: block;
+        /* display: fixed; */
+        z-index: 999;
+    }
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+
+
+
+
+
+
+@media screen and (min-width:500px) and (max-width:1280px) {
+
+    /* header */
+    header {
+        position: relative;
+        width: 100%;
+        height: 620px;
+        background: url("../image/indexImage/lobby1.jpg") no-repeat;
+        background-position: -600px 0;
+    }
+
+    header #headwrap {
+        width: 1200px;
+        height: 620px;
+        margin: 0 auto;
+    }
+
+    header #headwrap #navwrap {
+        float: left;
+        width: 1130px;
+        height: 65px;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    header #navwrap #h1 {
+        display: block;
+        float: left;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    header #navwrap #nav {
+        display: block;
+        float: left;
+        width: 1000px;
+        padding: 23px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    header #navwrap #nav ul {
+        text-align: center;
+        list-style: none;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    header #navwrap #nav ul li {
+        margin: 0 5px;
+    }
+
+    header #navwrap #nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+
+
+    /* ham */
+
+    header #ham{
+        position: relative;
+        top: 100px;
+        left: 0;
+    }
+
+
+    header #ham #list {
+        position: fixed;
+        top: 0;
+        left: -100px;
+        width: 1500px;
+        height: 620px;
+        background-color: #000;
+        display: none;
+    }
+
+    
+    header #ham #list #list_t {
+        position: absolute;
+        top: 100px;
+        /* left: calc(50%+100px); */
+        right: 50%;
+        /* transform: translateX(-100%); */
+        width: 250px;
+    }
+    
+    header #ham #list #list_t div {
+        font-size: 1.7em;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    header #ham #list #list_content {
+        position: absolute;
+        top: 125px;
+        left: 55%;
+        transform: translate(-10%);
+        width: 400px;
+    }
+
+    header #ham #list #list_content>* {
+        margin-bottom: 32px;
+    }
+
+    header #ham #list #list_content a {
+        text-decoration: none;
+        font-size: 1em;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    header #ham #list #list_content #list3 a {
+        border-right: 3px solid #fff;
+        padding: 0 20px 0 10px;
+    }
+
+    header #ham #list #list_content #list3 a:last-child {
+        border: none;
+    }
+
+    header #ham #list #list_content #list6 a {
+        border-right: 3px solid #fff;
+        padding: 0 20px 0 10px;
+    }
+
+    header #ham #list #list_content #list6 a:last-child {
+        border: none;
+    }
+
+    header #ham #list #list_content #list7 a {
+        border-right: 3px solid #fff;
+        padding: 0 20px 0 10px;
+    }
+
+    header #ham #list #list_content #list7 a:last-child {
+        border: none;
+    }
+
+    header #ham #list #list_content #list9 a {
+        border-right: 3px solid #fff;
+        padding: 0 20px 0 10px;
+    }
+
+    header #ham #list #list_content #list9 a:last-child {
+        border: none;
+    }
+
+
+
+    /* 09.12 ham input으로 변경 */
+    #ham {
+        width: 100%;
+        height: 620px;
+    }
+
+
+
+
+    #ham input[type=checkbox] {
+        display: none;
+    }
+
+    #ham .hamIcon {
+        position: absolute;
+        top: -80px;
+        left: 50%;
+        transform: translate(500px);
+        width: 44px;
+        height: 44px;
+        background: url('../image/commonimage/list_icon2.png') no-repeat 0 0;
+        cursor: pointer;
+        z-index: 9999;
+    }
+
+    #ham input[type=checkbox]:checked+.hamIcon {
+        position: fixed;
+        top: 20px;
+        background: url('../image/commonimage/list_icon2.png') no-repeat 0 -48px;
+    }
+
+    #ham #list {
+        display: none;
+        /* display: fixed; */
+    }
+
+    #ham input[type=checkbox]:checked~#list {
+        position: absolute;
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+    }
+
+
+
+}

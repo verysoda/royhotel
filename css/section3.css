@@ -1,0 +1,424 @@
+@charset 'utf-8';
+
+/* common */
+
+#section3 {
+    width: 100%;
+    height: 770px;
+}
+
+#section3 #offer_dining {
+    width: 1500px;
+    height: 670px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+/* offers */
+#section3 #offers {
+    width: 730px;
+    height: 650px;
+    float: left;
+    position: relative;
+}
+
+#section3 #offers a {
+    margin: 0;
+    width: 350px;
+    height: 280px;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+}
+
+#section3 #offers a img{
+    transition: all 1s;
+}
+
+#section3 #offers a:hover img{
+    transform: scale(1.1);
+}
+
+#section3 #offers #nseoul {
+    top: 75px;
+    left: 15px;
+}
+
+#section3 #offers #package {
+    top: 75px;
+    right: 15px;
+}
+
+#section3 #offers #hokang {
+    bottom: 15px;
+    left: 15px;
+}
+
+#section3 #offers #sweet {
+    bottom: 15px;
+    right: 15px;
+}
+
+
+
+/* dining */
+#section3 #dining {
+    width: 730px;
+    height: 650px;
+    margin-top: -5px;
+    float: right;
+    position: relative;
+}
+
+#section3 #dining a {
+    margin: 0;
+    padding: 15px;
+    width: 250px;
+    /* position: absolute; */
+    /* text-align: center; */
+}
+
+#section3 #dining a img {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+}
+
+#section3 #dining a #lt {
+    left: 15px;
+    top: 80px;
+}
+
+#section3 #dining a #lb {
+    left: 15px;
+    bottom: 10px;
+}
+
+#section3 #dining a #rm {
+    height: 180px;
+    right: 15px;
+    top: 250px;
+}
+
+
+#box {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -100px;
+    padding: 0;
+    width: 300px;
+    height: 560px;
+    background-color: #4b4b4b;
+}
+
+
+
+
+
+
+/* text */
+/* offer text */
+#section3 #offers h2 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#section3 #htxt {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    color: #000;
+    font-weight: bold;
+}
+
+#section3 #hdate {
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    color: #bbb;
+}
+
+#section3 #btxt {
+    position: absolute;
+    bottom: 0px;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    line-height: 40px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, .5);
+    /* display: none; */
+}
+
+
+/* dining text*/
+#section3 #box>ul {
+    list-style: none;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    /* text-align: justify; */
+    font-family: "한컴 고딕", Arial, Helvetica, sans-serif;
+}
+
+#section3 #dining #box>ul a li {
+    font-size: 2em;
+}
+
+#section3 #dining #box>ul a:nth-child(2) li {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-right: 80px;
+}
+
+#section3 #dining h2 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#section3 #dining #htxt {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    color: #000;
+    font-weight: bold;
+    color: #bbb;
+}
+
+#section3::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+/* ====================================== */
+
+@media screen and (min-width:500px) and (max-width:1280px) {
+
+    /* common */
+    #section3 {
+        width: 100%;
+        height: 770px;
+        padding: 0;
+    }
+
+    #section3 #offer_dining {
+        width: 1200px;
+        height: 670px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+
+    /* offers */
+    #section3 #offers {
+        width: 600px;
+        height: 555px;
+        float: left;
+        margin-left: 40px;
+        position: relative;
+    }
+
+    #section3 #offers a{
+        width: 300px;
+        margin: 0;
+        /* transition: all 1s; */
+        overflow: hidden;
+    }
+    #section3 #offers a img {
+        width: 300px;
+        margin: 0;
+        transition: all 1s;
+    }
+
+    #section3 #offers a:hover img{
+        transform: scale(1.1);
+    }
+
+    #section3 #offers #nseoul {
+        width: 300px;
+        height: 240px;
+        padding: 0;
+        /* margin-top: 15px; */
+    }
+
+    #section3 #offers #package {
+        width: 300px;
+        height: 240px;
+        padding: 0;
+        /* margin-top: 15px; */
+    }
+
+    #section3 #offers #hokang {
+        position: absolute;
+        top: 315px;
+        width: 300px;
+        height: 240px;
+        padding: 0;
+    }
+
+    #section3 #offers #sweet {
+        position: absolute;
+        top: 315px;
+        width: 300px;
+        height: 240px;
+        padding: 0;
+    }
+
+
+
+    /* dining */
+    #section3 #dining {
+        width: 500px;
+        height: 650px;
+        margin-top: -5px;
+        float: left;
+        position: relative;
+        margin-left: 20px;
+    }
+
+    #section3 #dining>a {
+        margin: 0;
+        width: 250px;
+        /* position: absolute; */
+        /* text-align: center; */
+    }
+
+    #section3 #dining a img {
+        width: 250px;
+        height: 200px;
+        position: absolute;
+    }
+
+    #section3 #dining a #lt {
+        left: 0px;
+        top: 80px;
+    }
+
+    #section3 #dining a #lb {
+        left: 0px;
+        bottom: 10px;
+    }
+
+    #section3 #dining a #rm {
+        height: 180px;
+        left: 0px;
+        top: 270px;
+    }
+
+
+    #box {
+        position: absolute;
+        top: 80px;
+        left: 60%;
+        padding: 0;
+        width: 300px;
+        height: 560px;
+        background-color: #4b4b4b;
+        z-index: -1;
+    }
+
+
+
+
+
+
+    /* text */
+    /* offer text */
+    #section3 #offers h2 {
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        font-size: 3em;
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    #section3 #htxt {
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        color: #000;
+        font-weight: bold;
+    }
+
+    #section3 #hdate {
+        position: absolute;
+        top: 40px;
+        left: 50px;
+        color: #bbb;
+    }
+
+    #section3 #btxt {
+        position: absolute;
+        bottom: 0px;
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        line-height: 40px;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+
+    /* dining text*/
+
+    #section3 #dining #box ul {
+        /* text-align: center; */
+        /* margin-left: 0%; */
+        /* margin-top: 80px; */
+        text-transform: uppercase;
+        font-family: "한컴 고딕", Arial, Helvetica, sans-serif;
+    }
+
+    #section3 #dining #box ul a li {
+        font-size: 1.3em;
+    }
+
+    #section3 #dining #box ul a:nth-child(2) {
+        margin-left: 50px;
+    }
+
+    #section3 #dining #box ul a:nth-child(2) li {
+        margin-top: 40px;
+    }
+
+    #section3 #dining h2 {
+        position: absolute;
+        top: 15px;
+        left: 0px;
+        font-size: 3em;
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    #section3 #dining #htxt {
+        position: absolute;
+        top: 45px;
+        left: 180px;
+        color: #000;
+        font-weight: bold;
+        color: #bbb;
+    }
+}

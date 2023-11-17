@@ -1,0 +1,253 @@
+@charset 'utf-8';
+
+
+/* common */
+#section2 #rooms img {
+    width: 895px;
+    height: 440px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#section2 #rooms #ttxt {
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 80px;
+    left: 25px;
+    font-family: "한컴 고딕", Arial, Helvetica, sans-serif;
+    font: 1.5em bold;
+}
+
+#section2 #rooms #btxt {
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-family: "한컴 고딕", Arial, Helvetica, sans-serif;
+    font: 4em bold;
+    border-bottom: 3px solid #fff;
+}
+
+
+/* rooms */
+#section2 #rooms {
+    width: 1800px;
+    height: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#section2 #rooms #suite {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 895px;
+    height: 440px;
+}
+
+#section2 #rooms #premire {
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    width: 895px;
+    height: 440px;
+}
+
+#section2 #rooms #standard {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    margin-bottom: 65px;
+    width: 895px;
+    height: 440px;
+}
+
+#section2 #rooms #lounge {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    margin-bottom: 65px;
+    width: 895px;
+    height: 440px;
+}
+
+#section2 #rooms a {
+    width: 895px;
+    height: 440px;
+}
+
+#section2 #rooms a:hover img {
+    transition: transform 1s;
+    transform: scale(1.2);
+}
+
+
+#section2 #rooms #room_more {
+    position: absolute;
+    left: 45%;
+    margin: 0 auto;
+    bottom: 0;
+    width: 170px;
+    height: 50px;
+    border: 2px solid #000;
+    transition: all .5s;
+}
+
+#section2 #rooms #room_more p {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    padding: 0.5em 2em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #000;
+    background-color: transparent;
+    transition: all .5s;
+}
+
+#section2 #rooms #room_more p:hover {
+    /* background: #000; */
+    color: #8a8a8a;
+}
+
+#section2 #rooms #room_more:hover {
+    border: 2px solid #8a8a8a;
+}
+
+
+
+
+
+
+
+/* ========================================== */
+
+@media screen and (min-width:500px) and (max-width:1280px) {
+
+    /* common */
+    #section2 {
+        width: 100%;
+        height: 680px;
+    }
+
+    #section2 #rooms img {
+        width: calc(895px*0.65);
+        height: calc(440px*0.65);
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    #section2 #rooms #ttxt {
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 65px;
+        left: 20px;
+        font-family: "한컴 고딕", Arial, Helvetica, sans-serif;
+        font: 1.2em bold;
+    }
+
+    #section2 #rooms #btxt {
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        font-family: "한컴 고딕", Arial, Helvetica, sans-serif;
+        font: 2.7em bold;
+        border-bottom: 2px solid #fff;
+    }
+
+
+    /* rooms */
+    #section2 #rooms {
+        width: 1200px;
+        height: 650px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #section2 #rooms #suite {
+        position: absolute;
+        top: 0;
+        left: 12px;
+        width: 581px;
+        height: 286px;
+        overflow: hidden;
+    }
+
+    #section2 #rooms #premire {
+        position: absolute;
+        top: 0;
+        right: 12px;
+        width: 581px;
+        height: 286px;
+        overflow: hidden;
+    }
+
+    #section2 #rooms #standard {
+        position: absolute;
+        bottom: 0;
+        left: 12px;
+        width: 581px;
+        height: 286px;
+        margin-bottom: 65px;
+        overflow: hidden;
+    }
+
+    #section2 #rooms #lounge {
+        position: absolute;
+        bottom: 0;
+        right: 12px;
+        width: 581px;
+        height: 286px;
+        margin-bottom: 65px;
+        overflow: hidden;
+    }
+
+    #section2 #rooms a:hover img {
+        transition: transform 1s;
+    }
+
+    #section2 #rooms a:hover img {
+        transform: scale(1.1);
+    }
+
+    #section2 #rooms #room_more {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin: 0 auto;
+        bottom: 0;
+        width: 170px;
+        height: 50px;
+        border: 2px solid #000;
+        transition: all .5s;
+
+    }
+
+    #section2 #rooms #room_more p {
+        position: absolute;
+        top: 0px;
+        left: 15px;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        color: #000;
+        background-color: transparent;
+        transition: all .5s;
+    }
+
+    #section2 #rooms #room_more p:hover {
+        /* background: #000; */
+        color: #8a8a8a;
+    }
+
+    #section2 #rooms #room_more:hover {
+        border: 2px solid #8a8a8a;
+    }
+
+}
