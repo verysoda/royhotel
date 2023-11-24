@@ -46,17 +46,19 @@ header #navwrap #nav ul {
 }
 
 
+
 /* section1 */
 #sub_section1 {
     width: 100%;
-    height: 1150px;
+    height: 1050px;
     font-family: "한컴 돋움", Arial, Helvetica, sans-serif;
+    z-index: 9999;
 }
 
 #sub_section1 #sec1_wrap {
     width: 100%;
-    height: 1050px;
-    margin-top : 100px;
+    height: 1150px;
+    margin-top: 100px;
 }
 
 /* notice */
@@ -81,6 +83,8 @@ header #navwrap #nav ul {
     text-align: center;
     color: #797979;
 }
+
+
 
 /* nav */
 #sub_section1 #notice_text #nav_search {
@@ -136,12 +140,12 @@ header #navwrap #nav ul {
 
 /* notice table */
 #sub_section1 #sec1_wrap table {
-    margin: 50px auto;
     width: 1405px;
     height: auto;
+    margin: 50px auto;
     border-top: 3px solid #b99b70;
     border-bottom: 3px solid #b99b70;
-    border-spacing: 0
+    border-spacing: 0;
 }
 
 #sub_section1 #sec1_wrap table tr,
@@ -159,6 +163,7 @@ td {
 #sub_section1 #sec1_wrap table tr td:nth-child(2) {
     padding-left: 20px;
 }
+
 
 #sub_section1 #sec1_wrap table tr td:first-child {
     width: 30px;
@@ -215,7 +220,6 @@ td {
 
 #sub_section2 #sec2_wrap {
     position: relative;
-    top: 100px;
     width: 1520px;
     height: 190px;
     border: 1px solid #b99b70;
