@@ -46,7 +46,6 @@ header #navwrap #nav ul {
 }
 
 
-
 /* section1 */
 #sub_section1 {
     width: 100%;
@@ -57,6 +56,7 @@ header #navwrap #nav ul {
 #sub_section1 #sec1_wrap {
     width: 100%;
     height: 1050px;
+    margin-top : 100px;
 }
 
 /* notice */
@@ -82,8 +82,6 @@ header #navwrap #nav ul {
     color: #797979;
 }
 
-
-
 /* nav */
 #sub_section1 #notice_text #nav_search {
     width: 1405px;
@@ -107,7 +105,6 @@ header #navwrap #nav ul {
     font-size: 1.3em;
     text-decoration: none;
     color: #797979;
-    ;
 }
 
 
@@ -163,7 +160,6 @@ td {
     padding-left: 20px;
 }
 
-
 #sub_section1 #sec1_wrap table tr td:first-child {
     width: 30px;
     height: 3em;
@@ -180,6 +176,11 @@ td {
 #sub_section1 #sec1_wrap table tr:last-child tr {
     width: 1375px;
     border: 0;
+}
+
+#sub_section1 #sec1_wrap table tr td a {
+    color: #c8b59a;
+    font-weight: bold;
 }
 
 #sec1_wrap #pageNumber {
